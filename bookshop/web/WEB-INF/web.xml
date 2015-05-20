@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>samservlet</servlet-name>
+        <servlet-class>samservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sortServlet</servlet-name>
+        <servlet-class>sortServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomeConnect</servlet-name>
+        <servlet-class>HomeConnect</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Discriptive</servlet-name>
+        <servlet-class>Discriptive</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>livesearch</servlet-name>
+        <servlet-class>livesearch</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Searching</servlet-name>
+        <servlet-class>Searching</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signing</servlet-name>
+        <servlet-class>signing</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>samservlet</servlet-name>
+        <url-pattern>/samservlet/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sortServlet</servlet-name>
+        <url-pattern>/sortServlet/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeConnect</servlet-name>
+        <url-pattern>/HomeConnect/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Discriptive</servlet-name>
+        <url-pattern>/Discriptive/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>livesearch</servlet-name>
+        <url-pattern>/livesearch/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Searching</servlet-name>
+        <url-pattern>/Searching</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>signing</servlet-name>
+        <url-pattern>/signing</url-pattern>
+    </servlet-mapping>
+    
+   <session-config>
+ 40
+</session-config>
+    
+</web-app>
